@@ -50,7 +50,7 @@
 - -> Consumers -> consumer-name -> Credentials -> New Key Auth Credential: -> Save
 - Copiar apiKey
 
-#### Route Key Authentication
+#### JWT Authentication
 
 - http://localhost:8002/
 - -> Routes -> router-name -> Plugins -> New Plugin -> JWT: -> Save
