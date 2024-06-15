@@ -83,3 +83,17 @@
 - -> New Target: fields Target Address (example: host.docker.internal:3001) -> Save
 - -> Gateway Services -> New Gateway Service: fields Name (example: upstream-example), -> Protocol, Host, Port and Path: fields Host (upstream-example) -> Save
 - -> Routes -> New Route: fields Name (example: load-balancing), Service (select: upstream-example), Paths (example: /load-balancing)
+
+## Rodar
+
+### Requisitos
+
+- Docker
+- Node.js
+
+### Comandos
+
+- docker compose up
+- cd node-api
+- npm run api
+- npm run api2
